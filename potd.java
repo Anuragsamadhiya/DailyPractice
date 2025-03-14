@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.HashMap;
-
+//IMPORTANT QUES FOR SLIDING WINDOW
 class potd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -55,7 +55,7 @@ while(cons>k){
                 i++; /
 }
             while (mp.size() == 5 && cons == k) { // When all vowels are present and k consonants exist
-                count += ar[right] - right; // Calculate valid substrings
+                count += ar[right] - right; // Calculate valid substrings 
 
                 char startChar = s.charAt(i);
                 if (!isVowel(startChar)) {

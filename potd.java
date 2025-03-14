@@ -52,7 +52,7 @@ while(cons>k){
                         mp.put(startChar, mp.get(startChar) - 1);
                     }
                 }
-                i++;
+                i++; /
 }
             while (mp.size() == 5 && cons == k) { // When all vowels are present and k consonants exist
                 count += ar[right] - right; // Calculate valid substrings

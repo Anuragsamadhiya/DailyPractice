@@ -52,7 +52,7 @@ else {
     }
 
    public static Node pl(Node head,int m,int n) {
-    Node newNode = new Node(0); // or with parameters: new Node(data)
+    Node newNode = new Node(0); 
     Node dummy=newNode;
 while(head!=null){
     int i=0;
